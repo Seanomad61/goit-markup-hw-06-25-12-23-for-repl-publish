@@ -116,26 +116,41 @@ img {
 
 /* Logo-style */
 .logo {
-  font-family: "Raleway", sans-serif;
+  width: 44px;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
 }
 
 .text-logo {
+  width: 71px;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+}
+.footer-logo.logo {
+  height: 21px;
+}
+.all-right-logo {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* Menu-Links-navigation-style */
 .menu-styles {
@@ -233,7 +248,7 @@ img {
   padding: 120px 0;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -245,7 +260,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .benefits-styles {
   display: flex;
@@ -254,6 +269,37 @@ img {
 
 .benefits-items {
   width: calc((100% - 72px) / 4);
+}
+
+.list-title {
+  width: 164px;
+  height: auto 24px;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.list-title.benefits-list-title {
+  width: 264px;
+  font-weight: 700;
+  line-height: 1.111;
+  text-transform: capitalize;
+}
+.list-text {
+  width: 264px;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.benefits-list-text.list-text {
+  font-weight: 500;
 }
 .benefits-icons {
   display: flex;
@@ -270,10 +316,23 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+.section-title {
+  font-size: 36px;
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 .our-team-styles {
   display: flex;
   gap: 24px;
 }
+
 .team-member {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -283,6 +342,30 @@ img {
 .team-member-name {
   padding: 32px 0;
 }
+
+/* list-title=styles-same-like-benefits */
+/* .list-title {
+  width: 164px;
+  height: auto 24px;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+} */
+/* list-text-same-like-benefits */
+/* .list-text {
+  width: 264px;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+} */
 .social-list {
   display: flex;
   justify-content: center;
@@ -381,16 +464,16 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.all-right-logo {
+/* .all-right-logo {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 .all-right-text {
   color: #f4f4fd;
   line-height: 1.5;
@@ -508,11 +591,129 @@ li {
   stroke: #2e2f42;
   fill: #2e2f42;
 }
-/* .footer-window-svg:hover,
-.footer-window-svg:focus {
-  color: #fff;
-} */
 
+/* **************MEDIA************************* */
+/* ********HEADER************ */
+/* *******COMMON-CONTAINER******** */
+.container {
+  max-width: 320px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ******************************** */
+.header-styles {
+  max-width: 320px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-content {
+  max-width: 320px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+.mobile-menu-open-btn {
+  background-color: transparent;
+  border: none;
+  color: #111;
+  line-height: 0;
+  background-color: #fd9222;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 135px;
+  margin-left: 16px;
+}
+.text-logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.menu-styles {
+  display: none;
+}
+.contacts {
+  display: none;
+}
+/* *****************HERO*********** */
+
+/* *****************BENEFITS******* */
+
+.benefits-list {
+  max-width: 320px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  padding: 0;
+  margin-top: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 686px;
+}
+.benefits-container {
+  width: 288px;
+  height: 686px;
+  /* background-color: #31d0aa; */
+}
+.benefits-styles {
+  /* display: block; */
+  flex-direction: column;
+  height: 686px;
+}
+.benefits-icons {
+  display: none;
+}
+.benefits-items {
+  width: 288px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+/* ********OUR-TEAM************ */
+.our-team {
+  max-width: 320px;
+  height: 2232px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  margin-top: 208px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-team-styles {
+  flex-direction: column;
+  align-items: center;
+  /* width: 264px; */
+  width: 100%;
+  height: 1928px;
+}
+.team-member {
+  width: 264px;
+  height: 260px;
+}
+/* **************DESK************ */
+
+/* **************MODAL-WINDOW****************** */
 /* modal-window */
 .modal-window-container {
   position: fixed;
