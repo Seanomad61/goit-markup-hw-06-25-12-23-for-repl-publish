@@ -115,6 +115,7 @@ img {
 }
 
 /* Logo-style */
+/* ********HEADER-LOGO************ */
 .logo {
   width: 44px;
   color: #4d5ae5;
@@ -142,6 +143,7 @@ img {
 .footer-logo.logo {
   height: 21px;
 }
+/* ***********FOOTER-LOGO********** */
 .all-right-logo {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -270,7 +272,7 @@ img {
 .benefits-items {
   width: calc((100% - 72px) / 4);
 }
-
+/* ****COMMON-BENEFITS-TEAM-STYLES*** */
 .list-title {
   width: 164px;
   height: auto 24px;
@@ -310,7 +312,7 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
+/* *END-COMMON-BENEF-TEAM-STYLES */
 /* section-three-our-team */
 .our-team {
   background-color: #f4f4fd;
@@ -404,7 +406,24 @@ img {
   padding-bottom: 120px;
 }
 .title-our-portfolio {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   margin-bottom: 72px;
+  width: 218px;
+  height: 40px;
+}
+.portfolio-list-title.list-title {
+  width: 118px;
+}
+.portfolio-list-text.list-text {
+  width: auto;
+  height: 24px;
 }
 .portfolio-styles {
   display: flex;
