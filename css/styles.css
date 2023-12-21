@@ -1046,11 +1046,9 @@ li {
   color: #4d5ae5;
   margin-left: 20px;
 }
-.agree {
-  text-align: center;
-  width: 231px;
-  height: 31px;
-}
+/* .agree {
+  display: inline-flex;
+} */
 .m-w-button {
   display: block;
   min-width: 169px;
